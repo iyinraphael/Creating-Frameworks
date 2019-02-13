@@ -43,7 +43,7 @@
         <!--Title-->
         <scene sceneID="sAf-E0-Lgi">
             <objects>
-                <viewController id="MVQ-5O-nOg" sceneMemberID="viewController">
+                <viewController id="MVQ-5O-nOg" customClass="ToLoadViewController" customModule="UsingLoadingUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wn8-Db-qOY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +53,16 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="YFk-3C-7H0">
-                                        <barButtonItem key="rightBarButtonItem" title="Clear" id="6rR-hC-Tiv"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Start" id="SSL-aE-ysZ">
+                                            <connections>
+                                                <action selector="start:" destination="MVQ-5O-nOg" id="A9M-9V-kBD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Clear" id="6rR-hC-Tiv">
+                                            <connections>
+                                                <action selector="clear:" destination="MVQ-5O-nOg" id="yea-O2-aEJ"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
