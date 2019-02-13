@@ -14,6 +14,7 @@
 		EBC2FDF92214B95A00771DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC2FDF72214B95A00771DB3 /* LaunchScreen.storyboard */; };
 		EBC2FE012214BAE200771DB3 /* ToLoadUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC2FE002214BAE200771DB3 /* ToLoadUI.framework */; };
 		EBC2FE022214BAE200771DB3 /* ToLoadUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBC2FE002214BAE200771DB3 /* ToLoadUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EBC2FE0B2214C86F00771DB3 /* ToLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2FE0A2214C86F00771DB3 /* ToLoadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		EBC2FDF82214B95A00771DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC2FDFA2214B95A00771DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC2FE002214BAE200771DB3 /* ToLoadUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ToLoadUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC2FE0A2214C86F00771DB3 /* ToLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLoadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				EBC2FDF52214B95A00771DB3 /* Assets.xcassets */,
 				EBC2FDF72214B95A00771DB3 /* LaunchScreen.storyboard */,
 				EBC2FDFA2214B95A00771DB3 /* Info.plist */,
+				EBC2FE0A2214C86F00771DB3 /* ToLoadViewController.swift */,
 			);
 			path = UsingLoadingUI;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC2FDF12214B95800771DB3 /* ViewController.swift in Sources */,
+				EBC2FE0B2214C86F00771DB3 /* ToLoadViewController.swift in Sources */,
 				EBC2FDEF2214B95800771DB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

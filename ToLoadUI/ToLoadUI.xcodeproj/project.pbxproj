@@ -10,6 +10,7 @@
 		EBC2FDD22214B7C300771DB3 /* ToLoadUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC2FDC82214B7C300771DB3 /* ToLoadUI.framework */; };
 		EBC2FDD72214B7C300771DB3 /* ToLoadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2FDD62214B7C300771DB3 /* ToLoadUITests.swift */; };
 		EBC2FDD92214B7C300771DB3 /* ToLoadUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC2FDCB2214B7C300771DB3 /* ToLoadUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC2FE092214C84700771DB3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2FE082214C84700771DB3 /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		EBC2FDD12214B7C300771DB3 /* ToLoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToLoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC2FDD62214B7C300771DB3 /* ToLoadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLoadUITests.swift; sourceTree = "<group>"; };
 		EBC2FDD82214B7C300771DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC2FE082214C84700771DB3 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = ../../../../../../.Trash/LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				EBC2FDCB2214B7C300771DB3 /* ToLoadUI.h */,
+				EBC2FE082214C84700771DB3 /* LoadingViewController.swift */,
 				EBC2FDCC2214B7C300771DB3 /* Info.plist */,
 			);
 			path = ToLoadUI;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					EBC2FDC72214B7C300771DB3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					EBC2FDD02214B7C300771DB3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC2FE092214C84700771DB3 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		EBC2FDDD2214B7C300771DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iyinraphael.ToLoadUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		EBC2FDDE2214B7C300771DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		EBC2FDE02214B7C300771DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToLoadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +415,7 @@
 		EBC2FDE12214B7C300771DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToLoadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
